@@ -7,9 +7,9 @@ The experiment 1 consisted in a comparison between the microbenchmarks generated
 In order to reproduce this experiment:
 
 1. Download and Maven-Install **AutoJMH** from its [sources](https://github.com/autojmh/autojmh-source-code)
-2. Clone this repo to your machine, it contains the source code used for AutoJMH and the humans to generate the microbenchmarks of the experiment.
+2. Clone this repo to your machine, it contains the source code used by both AutoJMH and the participants to generate their microbenchmarks.
 3. Locate the property file for `AutoJMHBase.properties` in the *src/main/resources* folder of the **AutoJMH** sources.
-4. Set variable `projectDir` the absolute path of the root *Samples* directory in your machine. (The root directory is the one containing the *pom.xml* file). 
+4. Set variable `projectDir` to the absolute path of the root *Samples* directory in your machine. (The root directory is the one containing the *pom.xml* file). 
    Set an output directory in `outputDir`, as well as a temporary working directory in `workingDir`. The working dir is for **AutoJMH** to store intermiediary results.
 5. Execute AutoJMH using as entry point `fr.inria.autojmh.tool.AllTags.java`
 6. The resulting microbenchmarks will be in your output directory
@@ -28,11 +28,12 @@ The experiment 2 was meant to evaluate the reach of AutoJMH in 5 real live proje
 In order to reproduce this experiment:
 
 1. You may find the code for all five projects in the *projects* directory of this repo. Uncompress them. 
-2. In order to make AutoJMH generate the microbenchmarks, set variable `projectDir` to the root directory in your machine for the project you want to generate microbenchmarks.
+2. Locate the property file for `AutoJMHBase.properties` in the *src/main/resources* folder of the **AutoJMH** sources.
+3. Set variable `projectDir` to the root directory in your machine for the project you want to generate microbenchmarks.
 (The root directory is the one containing the *pom.xml* file). Set an output directory in `outputDir`, as well as a temporary working directory in `workingDir`. The working dir is for **AutoJMH** to store intermiediary results.
-3. Execute AutoJMH using as entry point `fr.inria.autojmh.tool.AllLops`
-4. AutoJMH will print at the end of the process the results
-5. You may find the generated project in the `outputDir`.
+4. Execute AutoJMH using as entry point `fr.inria.autojmh.tool.AllLops`
+5. AutoJMH will print at the end of the process the results.
+6. You may find the generated project in the `outputDir`.
 
 ##Questions
 Any question regarding how to reproduce the results, you may leave an issue.
