@@ -12,7 +12,7 @@ import java.util.Collection;
 public class Main {
 
     //Put in here the absolute path to the folder containing the data
-    public static final String DATA_ROOT_FOLDER = "autojmh-validation-git/autojmh/log";
+    public static final String DATA_ROOT_FOLDER = "C:\\MarcelStuff\\PROJECTS\\PHD\\autojmh-validation-git\\autojmh\\log";
 
     public static void main(String[] args) throws RunnerException {
 
