@@ -16,8 +16,8 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 public class fr_inria_bench_Example1_40_1_Benchmark {
 
-    static final String DATA_ROOT_FOLDER = "C:/MarcelStuff/PROJECTS/benchsource_work/log";
-    static final String DATA_FILE = "fr-inria-bench-Example1-40-1--main-sun.misc.Launcher$AppClassLoader@106d69c";
+    static final String DATA_ROOT_FOLDER = Main.DATA_ROOT_FOLDER;
+    public static final String DATA_FILE = "fr-inria-bench-Example1-37--main-sun.misc.Launcher$AppClassLoader@106d69c-1";
 
     public double sinSum;
     public MyFunction c;

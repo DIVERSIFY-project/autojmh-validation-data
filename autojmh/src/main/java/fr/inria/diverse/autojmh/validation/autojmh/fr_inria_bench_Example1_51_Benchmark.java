@@ -15,8 +15,8 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 public class fr_inria_bench_Example1_51_Benchmark {
 
-    static final String DATA_ROOT_FOLDER = "C:/MarcelStuff/PROJECTS/benchsource_work/log";
-    static final String DATA_FILE = "fr-inria-bench-Example1-51--main-sun.misc.Launcher$AppClassLoader@106d69c";
+    static final String DATA_ROOT_FOLDER = Main.DATA_ROOT_FOLDER;
+    static final String DATA_FILE = "fr-inria-bench-Example1-53--main-sun.misc.Launcher$AppClassLoader@106d69c";
 
     public ArrayList<Integer> a;
     public int value;
