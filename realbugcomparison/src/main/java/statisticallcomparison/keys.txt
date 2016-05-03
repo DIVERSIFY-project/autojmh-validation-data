@@ -1,0 +1,60 @@
+HashMap<String, String> humanVsAuto = new HashMap<>();
+        humanVsAuto.put("f.i.a.humanmade.oracle.BigIntegerBenchBUG8152910.ONE",
+                "f.i.a.benchmarks.oraclebugs_BigIntegerConstantt8152910_14_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.BigIntegerBenchBUG8152910.valueOf_1",
+                "f.i.a.benchmarks.oraclebugs_BigIntegerConstantt8152910_17_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.BigIntegerBenchBUG8152910.valueOf_2",
+                "f.i.a.benchmarks.oraclebugs_BigIntegerConstantt8152910_20_Benchmark.doBenchmark");
+
+
+        humanVsAuto.put("f.i.a.humanmade.arregulo.reflection.CreateNewInstance.new_allocate",
+                "f.i.a.benchmarks.arregulo_CreateNewInstanceStory5_41_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.arregulo.reflection.CreateNewInstance.find_constructor_allocate",
+                "f.i.a.benchmarks.arregulo_CreateNewInstanceStory5_26_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.arregulo.reflection.CreateNewInstance.load_class_find_constructor_allocate",
+                "f.i.a.benchmarks.arregulo_CreateNewInstanceStory5_15_Benchmark.doBenchmark");
+
+        humanVsAuto.put("f.i.a.humanmade.arregulo.reflection.GetFields.getDeclaredFields",
+                "f.i.a.benchmarks.arregulo_GetFieldsStory4_15_Benchmark.doBenchmark");
+
+
+        humanVsAuto.put("f.i.a.humanmade.arregulo.map.LongKeyMap.get_NonBlockingHashMapLong",
+                "f.i.a.benchmarks.arregulo_LongKeyMapStory2_18_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.arregulo.map.LongKeyMap.get_ConcurrentHashMap",
+                "f.i.a.benchmarks.arregulo_LongKeyMapStory2_13_Benchmark.doBenchmark");
+
+        humanVsAuto.put("f.i.a.humanmade.arregulo.map.MapGet.IgnoreCaseMap",
+                "f.i.a.benchmarks.arregulo_IgnoreCaseStory3_24_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.arregulo.map.MapGet.HashMap_toLowerCase",
+                "f.i.a.benchmarks.arregulo_IgnoreCaseStory3_13_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.arregulo.map.MapGet.TreeMap",
+                "f.i.a.benchmarks.arregulo_IgnoreCaseStory3_18_Benchmark.doBenchmark");
+
+
+        humanVsAuto.put("f.i.a.humanmade.oracle.PatternMatcherBUG8151481.testMethod",
+                "f.i.a.benchmarks.oraclebugs_PatternMatcher8151481_15_Benchmark.doBenchmark");
+
+
+        humanVsAuto.put("f.i.a.humanmade.oracle.StringFormatBUG8050142.formatDecimal",
+                "f.i.a.benchmarks.oraclebugs_StringFormat8050142_13_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.StringFormatBUG8050142.formatHex",
+                "f.i.a.benchmarks.oraclebugs_StringFormat8050142_17_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.StringFormatBUG8050142.formatDouble",
+                "f.i.a.benchmarks.oraclebugs_StringFormat8050142_21_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.StringFormatBUG8050142.formatScience",
+                "f.i.a.benchmarks.oraclebugs_StringFormat8050142_25_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.StringFormatBUG8050142.formatString",
+                "f.i.a.benchmarks.oraclebugs_StringFormat8050142_29_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.StringFormatBUG8050142.formatComplex",
+                "f.i.a.benchmarks.oraclebugs_StringFormat8050142_33_Benchmark.doBenchmark");
+
+        humanVsAuto.put("f.i.a.humanmade.oracle.ForStreamBUG8146071.forTest_if",
+                "f.i.a.benchmarks.oraclebugs_ForStream8146071_13_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.oracle.ForStreamBUG8146071.forTest_MathMax",
+                "f.i.a.benchmarks.oraclebugs_ForStream8146071_25_Benchmark.doBenchmark");
+
+
+        humanVsAuto.put("f.i.a.humanmade.arregulo.CollectionToList.new_ArrayList_from_Collection",
+                "f.i.a.benchmarks.arregulo_CollectionToListStory6_16_Benchmark.doBenchmark");
+        humanVsAuto.put("f.i.a.humanmade.arregulo.CollectionToList.new_ArrayList_add",
+                "f.i.a.benchmarks.arregulo_CollectionToListStory6_33_Benchmark.doBenchmark");

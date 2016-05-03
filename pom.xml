@@ -19,6 +19,7 @@
         <module>expert</module>
         <module>samples</module>
         <module>autojmh</module>
+        <module>realbugcomparison</module>
 
     </modules>
 
